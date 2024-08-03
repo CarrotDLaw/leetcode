@@ -13,7 +13,7 @@ Binary search.
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 # Code
-```rs
+```rust
 impl Solution {
     pub fn my_sqrt(x: i32) -> i32 {
         use std::cmp::Ordering;

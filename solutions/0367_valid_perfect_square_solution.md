@@ -13,7 +13,7 @@ Binary search.
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 
 # Code
-```rs
+```rust
 impl Solution {
     pub fn is_perfect_square(num: i32) -> bool {
         use std::cmp::Ordering;
