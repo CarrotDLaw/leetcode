@@ -1,6 +1,6 @@
 impl Solution {
   pub fn count_students(students: Vec<i32>, sandwiches: Vec<i32>) -> i32 {
-    let mut counts = [0, 0].to_vec();
+    let mut counts = [0, 0];
 
     for s in students {
       counts[s as usize] += 1;
