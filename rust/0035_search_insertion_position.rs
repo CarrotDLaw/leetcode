@@ -5,7 +5,7 @@ impl Solution {
     let mut l = 0;
     let mut r = nums.len() as i32;
   
-    while l < r {
+    while l <= r {
       let m = l + (r - l) / 2;
   
       match nums[m as usize].cmp(&target) {
