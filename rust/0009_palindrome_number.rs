@@ -12,8 +12,7 @@ impl Solution {
       new += org % 10;
       org /= 10;
     }
-        
-    // return if x == new {true} else {false};
+
     x == new
   }
 }

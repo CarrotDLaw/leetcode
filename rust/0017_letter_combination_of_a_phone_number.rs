@@ -3,10 +3,10 @@ impl Solution {
     if digits.is_empty() {
       return Vec::new();
     }
-  
+
     let key_map = ["abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"];
     let mut combinations = ["".to_string()].to_vec();
-  
+
     for digit in digits.bytes() {
       let mut new_combinations = Vec::new();
       for combination in combinations {
@@ -14,11 +14,10 @@ impl Solution {
           new_combinations.push(format!("{}{}", combination, letter as char));
         }
       }
-  
+
       combinations = new_combinations;
     }
-  
+
     combinations.iter().map(|s| s.to_string()).collect()
   }
 }
-

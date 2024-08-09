@@ -7,7 +7,7 @@ impl Solution {
         }
       }
     }
-    
+
     return vec![];
   }
 }

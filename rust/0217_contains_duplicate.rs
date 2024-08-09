@@ -4,7 +4,7 @@ impl Solution {
 
     let nums_len = nums.len();
     let set: HashSet<i32> = HashSet::from_iter(nums);
-    
+
     nums_len != set.len()
   }
 }
