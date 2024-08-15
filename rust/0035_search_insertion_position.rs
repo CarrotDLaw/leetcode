@@ -3,7 +3,7 @@ impl Solution {
     use std::cmp::Ordering::*;
   
     let mut l = 0;
-    let mut r = nums.len() as i32;
+    let mut r = nums.len() as i32 - 1;
   
     while l <= r {
       let m = l + (r - l) / 2;
